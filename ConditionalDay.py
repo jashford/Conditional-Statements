@@ -5,7 +5,7 @@ def day():
     if answer == "school" or answer == "0":
         print "You have five classes to go to today and it will give you a lot of homework!"
     elif answer == "home" or answer == "1":
-        print "You're going to be fall behind in your classes... you're not really sick"
+        print "You're going to fall behind in your classes... you're not really sick"
     else:
         print "You didn't pick either of the options. Try again."
         day()
